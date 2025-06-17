@@ -3,23 +3,24 @@
 
 A Python tool to extract, process, and export soil moisture time series from ISMN (International Soil Moisture Network) datasets for multiple networks and stations.
 
----
-# Sign up in ISMN portal
+## Sign up in ISMN portal
 
-Create an account on ISMN portal to access the data (https://ismn.earth/en/)
-After login click on DATA ACCESS (https://ismn.earth/en/dataviewer/)
-- Select Network
-- Date range
-- Sensor (All Variables, Depth)
-    - All Variables (soil moisture, temperature, precipitation, surface temperature, soil suction)
-    - Depth (select depth range)
-- Select All climates and All landcovers
-- Hit the Downlaod button
-    - Review the request
-    - Choose Format: Header+values
-    - Tick Gap Filling
-    - Tick Quality flags
-    - Proceed for download
+* Create an account on ISMN portal to access the data (https://ismn.earth/en/)
+* After login click on DATA ACCESS (https://ismn.earth/en/dataviewer/)
+ * Select Network
+ * Date range
+ * Sensor (All Variables, Depth)
+    * All Variables (soil moisture, temperature, precipitation, surface temperature, soil suction)
+    * Depth (select depth range)
+ * Select All climates and All landcovers
+ * Hit the Downlaod button
+    * Review the request
+    * Choose Format: Header+values
+    * Tick Gap Filling
+    * Tick Quality flags
+    * Proceed for download
+---
+
 
 ## Project Structure
 
@@ -61,8 +62,8 @@ ISMN_STATIONS/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/soil-moisture-extraction.git
-cd soil-moisture-extraction
+git clone https://akshay_encode@bitbucket.org/encodenature/ismn_soil_moisture.git
+cd ismn_soil_moisture
 ```
 
 2. Set up a Python environment:
