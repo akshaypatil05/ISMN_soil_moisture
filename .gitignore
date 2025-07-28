@@ -2,7 +2,7 @@
 
 # fodler
 data/
-
+satellite_data/
 
 # files
 *.mp4
@@ -12,4 +12,6 @@ data/
 *.flv
 *.mov
 *.wmv
+__pycache__/
+*.pyc
 

@@ -76,9 +76,10 @@ conda activate ismn_env
 3. Install the required packages:
 
 ```bash
-pip install -r requirements.txt 
-```
-OR
+pip install -r requirements.txt  
+``` 
+
+OR (https://pypi.org/project/ismn/)
 
 ```bash
 pip install ismn 
